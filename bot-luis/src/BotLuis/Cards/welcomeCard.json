@@ -1,0 +1,29 @@
+{
+	"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+	"type": "AdaptiveCard",
+	"version": "1.0",
+	"body": [
+
+		{
+			"type": "TextBlock",
+			"spacing": "medium",
+			"size": "default",
+			"weight": "bolder",
+			"text": "Bem Vindo!",
+			"wrap": true,
+			"maxLines": 0
+		}
+	],
+	"actions": [
+		{
+			"type": "Action.Submit",
+			"title": "Quero comprar uma Passagem",
+			"data": "comprar uma passagem"
+		},
+		{
+			"type": "Action.Submit",
+			"title": "Quero consultar uma Passagem",
+			"data": "me mostra minhas viagens"
+		}
+	]
+}
